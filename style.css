@@ -1,0 +1,168 @@
+* {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+html {
+    box-sizing: border-box;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+body { 
+    margin: 50px;
+    font-size: 13px;
+}
+
+.item {
+    display: grid;
+    justify-content: center;
+    box-shadow: 10px 10px 45px -3px rgba(0,0,0,0.32);
+    align-items: center;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+.side-text p {
+    margin: 0 0 5px 0;
+    font-size: initial;
+}
+
+/* img {
+    border-radius: 50%;
+} */
+
+.mid-quote {
+    position: relative;
+    bottom: 3em;
+    font-size: 25px;
+    margin: 0px 23px;
+    bottom: 4em;
+}
+
+.container {
+    display: grid;
+    grid-gap: 25px;
+    place-content: center;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: repeat(6, 100px);
+}
+
+.item1 {
+    background-color: hsl(263, 55%, 52%);
+    color: #fff;
+    grid-column: span 6;
+    grid-row: span 3;
+}
+
+.item2 {
+    background-color: hsl(217, 19%, 35%);
+    color: #fff;
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+.item3 {
+    background-color: hsl(0, 0%, 100%);
+    grid-column: span 3;
+    grid-row: 4 / span 3;
+}
+
+.item4 {
+    background-color: hsl(219, 29%, 14%);
+    color: #fff;
+    grid-column: span 6;
+    grid-row: 4 / span 3;
+}
+
+.item5 {
+    background-color: hsl(0, 0%, 100%);
+    grid-column: span 3;
+    grid-row: span 6;
+}
+
+.person-img {
+    border-radius: 50%;
+    height: 59px;
+}
+
+#quote-img {
+    position: relative;
+    left: 66%;
+    top: 2em;
+    width: 116px;
+}
+
+.rectangle {
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+.square {
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+.rectangle-long {
+    margin-top: -5px;
+    margin-right: 20px;
+}
+
+.top-rectangle-long {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 43%;
+    right: 1em;
+}
+
+.top-rectangle {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 3%;
+}
+
+.top-square {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 35%;
+    right: 1em;
+}
+
+.side-text > .name {
+    font-size: 21px;
+}
+
+#z-index-quote {
+    position: relative;
+    top: -10px;
+}
+
+.opaque-quote {
+    font-size: initial;
+    position: relative;
+    top: -7em;
+    margin: 0px 23px;
+    line-height: 1.6;
+}
+
+.abrams-quote-middle {
+    position: relative; 
+    top: 3em;
+}
+
+#abrams-quote-bottom {
+    position: relative;
+    top: -7em;
+    
+}

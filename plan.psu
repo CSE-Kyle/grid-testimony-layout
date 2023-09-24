@@ -1,0 +1,14 @@
+- focus on getting each individual cell to look exactly like the image previews ✅
+    - move on to the next cell once preview replica is complete ✅
+
+- group the names/paragraphs together and style them accordingly 
+
+- position elements using flexbox 
+    - paragraph alignment 
+
+- position elements using grid ✅
+    - grid-template-rows ✅
+    - grid-template-columns ✅
+    - grid-row ✅
+    - grid-column ✅  
+    - span ✅
